@@ -3,11 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Hassan's Personal Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <div class="navigation-bar">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img class="nav-pic" src="images/profilepic.png" alt="">MHT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#skill-section">Projects <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact-section">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a id="resume" class="nav-link" href="resume/Muhammad Tariq - Resume.pdf">Resume <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
+
     <div class="top-container">
       <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
       <h1>I'm Hassan.</h1>
@@ -18,12 +64,12 @@
 
     <div class="middle-container">
       <div class="profile">
-        <img src="images/profilepic.png" alt="">
+        <img class="intro-pic" src="images/profilepic.png" alt="">
         <h2>Hello.</h2>
         <p class="intro">I am a software engineering student that is highly enthusiastic about computers, software, and technology. I like playing videogames in my free time.</p>
       </div>
       <hr>
-      <div class="skills">
+      <div class="skills" id="skill-section">
         <h2>My Skills.</h2>
         <div class="skill-row">
           <img class="programmer-img" src="images/programmer.png" alt="">
@@ -56,13 +102,19 @@
       </div>
     </div>
 
-    <div class="bottom-container">
+    <div class="bottom-container" id="contact-section">
       <a class="footer-link" href="https://www.linkedin.com/in/muhammad-hassan-tariq-611b7b171/">LinkedIn</a>
       <a class="footer-link" href="https://github.com/mhtariq3">GitHub</a>
       <a class="footer-link" href="https://mhtariq3.github.io/">Website</a>
+      <a class="footer-link" href="resume/Muhammad Tariq - Resume.pdf">Resume</a>
       <p class="copyright">© 2020 Muhammad Hassan Tariq.</p>
     </div>
 
 
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

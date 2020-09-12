@@ -5,6 +5,19 @@ body {
   text-align: center;
 }
 
+.navigation-bar{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-pic {
+  width: 15%;
+  margin-right: 10px;
+}
+
+#resume {
+  color: #66BFBF;
+}
+
 h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -36,6 +49,10 @@ hr {
   margin: 100px auto;
 }
 
+.intro-pic {
+  margin-bottom: 25px;
+}
+
 .web {
   color: #11999E;
   text-decoration: none;
@@ -43,6 +60,7 @@ hr {
 
 .web:hover {
   color: #40514E;
+  text-decoration: none;
 }
 
 .soft {
@@ -52,6 +70,7 @@ hr {
 
 .soft:hover {
   color: #40514E;
+  text-decoration: none;
 }
 
 .weblist {
@@ -68,6 +87,7 @@ hr {
 
 .footer-link:hover {
   color: #eaf6f6;
+  text-decoration: none;
 }
 
 .copyright {
@@ -79,7 +99,7 @@ hr {
 .top-container {
   background-color: #e4f9f5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 .middle-container {
@@ -128,7 +148,7 @@ span {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 40px;
+  top: 140px;
 }
 
 .bottom-cloud {
