@@ -25,7 +25,22 @@
     line-height: 160px;
 }
 
-.text-box a {
+.text-box .btn {
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 6px;
+    border: 2px solid #fff724;
+    color: #fff724;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.text-box .company {
+    text-decoration: none;
+    color: #86C1E2;
+}
+
+.text-box .linked {
     margin-top: 30px;
     display: inline-block;
     border-radius: 6px;
@@ -42,10 +57,6 @@
     font-weight: 600;
 }
 
-.company {
-    color: #86C1E2;
-}
-
 .btn:hover {
     background-color: black;
     color: #fff724;
@@ -57,3 +68,26 @@
     border-color: #0077B5;
 }
 
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #86C1E2;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #86C1E2;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
